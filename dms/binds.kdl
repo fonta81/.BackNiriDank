@@ -131,6 +131,7 @@ binds {
     Mod+Shift+E { quit; }
     Mod+E { spawn "dolphin"; }
     Mod+Return hotkey-overlay-title="Open Terminal" { spawn "ghostty"; }
+    Mod+S { spawn "flatpak" "run" "com.spotify.Client"; }
     Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
     Mod+O repeat=false { toggle-overview; }
     Mod+Shift+Slash { show-hotkey-overlay; }
