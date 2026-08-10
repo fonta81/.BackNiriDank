@@ -1,5 +1,7 @@
 # .BackNiriDank
 
+[Versión en español](README.es.md)
+
 Personal configuration for the [Niri](https://github.com/YaLTeR/niri) Wayland compositor.
 
 ## Project Structure
