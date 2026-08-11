@@ -64,14 +64,14 @@ binds {
     Alt+Return { fullscreen-window; }
     Alt+XF86Launch1 { screenshot-window; }
     Ctrl+Shift+3 { screenshot-window; }
-    Mod+BracketLeft { consume-or-expel-window-left; }
-    Mod+BracketRight { consume-or-expel-window-right; }
+    Mod+BracketLeft { focus-column-first; }
+    Mod+BracketRight { focus-column-last; }
     Mod+C { center-column; }
+    Mod+Ctrl+BracketLeft { move-column-to-first; }
+    Mod+Ctrl+BracketRight { move-column-to-last; }
     Mod+Ctrl+C { center-visible-columns; }
-    Mod+Ctrl+End { move-column-to-last; }
     Mod+Ctrl+F { expand-column-to-available-width; }
     Mod+Ctrl+H { focus-monitor-left; }
-    Mod+Ctrl+Home { move-column-to-first; }
     Mod+Ctrl+J { focus-monitor-down; }
     Mod+Ctrl+K { focus-monitor-up; }
     Mod+Ctrl+L { focus-monitor-right; }
@@ -83,11 +83,9 @@ binds {
     Mod+Ctrl+WheelScrollLeft { move-column-left; }
     Mod+Ctrl+WheelScrollRight { move-column-right; }
     Mod+Down { focus-window-down; }
-    Mod+End { focus-column-last; }
     Mod+Equal { set-column-width "+50%"; }
     Mod+F { maximize-column; }
     Mod+H { focus-column-left; }
-    Mod+Home { focus-column-first; }
     Mod+J { focus-window-down; }
     Mod+K { focus-window-up; }
     Mod+L { focus-column-right; }
@@ -97,6 +95,8 @@ binds {
     Mod+Q repeat=false { close-window; }
     Mod+R { switch-preset-column-width; }
     Mod+Right { focus-column-right; }
+    Mod+Shift+BracketLeft { consume-or-expel-window-left; }
+    Mod+Shift+BracketRight { consume-or-expel-window-right; }
     Mod+Shift+Ctrl+Down { move-column-to-monitor-down; }
     Mod+Shift+Ctrl+H { move-column-to-monitor-left; }
     Mod+Shift+Ctrl+J { move-column-to-monitor-down; }
