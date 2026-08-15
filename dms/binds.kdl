@@ -82,6 +82,7 @@ binds {
     Mod+Ctrl+Shift+WheelScrollUp { move-column-left; }
     Mod+Ctrl+WheelScrollLeft { move-column-left; }
     Mod+Ctrl+WheelScrollRight { move-column-right; }
+    Mod+D { toggle-window-floating; }
     Mod+Down { focus-window-down; }
     Mod+Equal { set-column-width "+50%"; }
     Mod+F { maximize-column; }
@@ -115,7 +116,6 @@ binds {
     Mod+Shift+Minus { set-window-height "-10%"; }
     Mod+Shift+R { switch-preset-window-height; }
     Mod+Shift+Right { move-column-right; }
-    Mod+Shift+T { toggle-window-floating; }
     Mod+Shift+Up { move-window-up; }
     Mod+Shift+V { switch-focus-between-floating-and-tiling; }
     Mod+Shift+WheelScrollDown { focus-column-right; }
