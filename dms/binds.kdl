@@ -67,8 +67,8 @@ binds {
     Mod+BracketLeft { focus-column-first; }
     Mod+BracketRight { focus-column-last; }
     Mod+C { center-column; }
-    Mod+Ctrl+BracketLeft { move-column-to-first; }
-    Mod+Ctrl+BracketRight { move-column-to-last; }
+    Mod+Ctrl+BracketLeft { consume-or-expel-window-left; }
+    Mod+Ctrl+BracketRight { consume-or-expel-window-right; }
     Mod+Ctrl+C { center-visible-columns; }
     Mod+Ctrl+F { expand-column-to-available-width; }
     Mod+Ctrl+H { focus-monitor-left; }
@@ -95,8 +95,8 @@ binds {
     Mod+Q repeat=false { close-window; }
     Mod+R { switch-preset-column-width; }
     Mod+Right { focus-column-right; }
-    Mod+Shift+BracketLeft { consume-or-expel-window-left; }
-    Mod+Shift+BracketRight { consume-or-expel-window-right; }
+    Mod+Shift+BracketLeft { move-column-to-first; }
+    Mod+Shift+BracketRight { move-column-to-last; }
     Mod+Shift+Ctrl+Down { move-column-to-monitor-down; }
     Mod+Shift+Ctrl+H { move-column-to-monitor-left; }
     Mod+Shift+Ctrl+J { move-column-to-monitor-down; }
@@ -130,10 +130,10 @@ binds {
     Ctrl+XF86Launch1 { screenshot-screen; }
     XF86Launch1 { screenshot; }
     Mod+Shift+E { quit; }
-    Alt+Q { spawn "flatpak" "run" "md.obsidian.Obsidian"; }
-    Mod+E { spawn "dolphin"; }
+    Alt+Q { spawn "obsidian"; }
+    Mod+E { spawn "nautilus"; }
     Mod+Return hotkey-overlay-title="Open Terminal" { spawn "ghostty"; }
-    Mod+S { spawn "flatpak" "run" "com.spotify.Client"; }
+    Mod+S { spawn "spotify"; }
     Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
     Mod+O repeat=false { toggle-overview; }
     Mod+Shift+Slash { show-hotkey-overlay; }
