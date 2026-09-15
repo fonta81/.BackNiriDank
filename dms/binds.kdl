@@ -70,12 +70,14 @@ binds {
     Mod+Ctrl+BracketLeft { consume-or-expel-window-left; }
     Mod+Ctrl+BracketRight { consume-or-expel-window-right; }
     Mod+Ctrl+C { center-visible-columns; }
+    Mod+Ctrl+Equal hotkey-overlay-title="Set Column Width" { set-column-width "+10%"; }
     Mod+Ctrl+F { expand-column-to-available-width; }
     Mod+Ctrl+H { focus-monitor-left; }
     Mod+Ctrl+J { focus-monitor-down; }
     Mod+Ctrl+K { focus-monitor-up; }
     Mod+Ctrl+L { focus-monitor-right; }
     Mod+Ctrl+Left { focus-monitor-left; }
+    Mod+Ctrl+Minus hotkey-overlay-title="Set Column Width" { set-column-width "-10%"; }
     Mod+Ctrl+R { reset-window-height; }
     Mod+Ctrl+Right { focus-monitor-right; }
     Mod+Ctrl+Shift+WheelScrollDown { move-column-right; }
