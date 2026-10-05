@@ -133,10 +133,10 @@ binds {
     Ctrl+XF86Launch1 { screenshot-screen; }
     XF86Launch1 { screenshot; }
     Mod+Shift+E { quit; }
-    Alt+Q { spawn "obsidian"; }
+    Alt+Q { spawn "flatpak" "run" "md.obsidian.Obsidian"; }
     Mod+E { spawn "nautilus"; }
     Mod+Return hotkey-overlay-title="Open Terminal" { spawn "ghostty"; }
-    Mod+S { spawn "spotify"; }
+    Mod+S { spawn "flatpak" "run" "com.spotify.Client"; }
     Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
     Mod+O repeat=false { toggle-overview; }
     Mod+Shift+Slash { show-hotkey-overlay; }
